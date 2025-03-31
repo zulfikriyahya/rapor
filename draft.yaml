@@ -1,0 +1,75 @@
+models:
+  Sekolah:
+    nama:
+    logo_institusi:
+    logo_instansi:
+    npsn:
+    nss:
+    alamat:
+    kelurahan_id:
+    kecamatan_id:
+    kabupaten_id:
+    provinsi_id:
+    negara_id:
+    akreditasi:
+    status:
+    pimpinan_id:
+
+  Negara:
+    nama:
+    bendera:
+
+  Provinsi:
+    nama:
+    negara_id:
+
+  Kabupaten:
+    nama:
+    provinsi_id:
+
+  Kecamatan:
+    nama:
+    kabupaten_id:
+
+  Kelurahan:
+    nama:
+    kecamatan_id:
+  
+  Pimpinan:
+    nama:
+    foto:
+    nip:
+    tmt_awal:
+    tmt_akhir:
+    status:
+
+  TahunPelajaran:
+    nama:
+
+  Jurusan:
+    nama:
+
+  Kelas:
+    nama:
+    jurusan_id:
+
+  Siswa:
+    nama:
+    kelas_id:
+    foto:
+    nisn:
+    nis:
+    
+
+  Penilaian:
+    nama:
+
+  MataPelajaran:
+    nama:
+
+  Ekstrakurikuler:
+    nama:
+
+  Presensi:
+    kelas_id:
+  
