@@ -13,6 +13,30 @@ models:
     negara_id:
     akreditasi:
     status:
+    jenjang:
+    telepon:
+    email:
+    website:
+    pimpinan_id:
+
+  SekolahAsal:
+    nama:
+    logo_institusi:
+    logo_instansi:
+    npsn:
+    nss:
+    alamat:
+    kelurahan_id:
+    kecamatan_id:
+    kabupaten_id:
+    provinsi_id:
+    negara_id:
+    akreditasi:
+    status:
+    jenjang:
+    telepon:
+    email:
+    website:
     pimpinan_id:
 
   Negara:
@@ -33,15 +57,17 @@ models:
 
   Kelurahan:
     nama:
+    kode_pos:
     kecamatan_id:
   
   Pimpinan:
     nama:
-    foto:
     nip:
+    foto:
     tmt_awal:
     tmt_akhir:
     status:
+    tte:
 
   TahunPelajaran:
     nama:
@@ -59,7 +85,72 @@ models:
     foto:
     nisn:
     nis:
-    
+    agama:
+    hobi:
+    tinggi_badan:
+    berat_badan:
+    jarak_ke_sekolah:
+    golongan_darah:
+    nik:
+    kk:
+    telepon:
+    email:
+    alamat:
+    negara_id:
+    provinsi_id:
+    kabupaten_id:
+    kecamatan_id:
+    kelurahan_id:
+    # Ibu
+    ibu_nama:
+    ibu_pekerjaan:
+    ibu_status:
+    ibu_penghasilan:
+    ibu_nik:
+    ibu_pendidikan:
+    ibu_telepon:
+    ibu_alamat:
+    ibu_negara_id:
+    ibu_provinsi_id:
+    ibu_kabupaten_id:
+    ibu_kecamatan_id:
+    ibu_kelurahan_id:
+    # Ayah
+    ayah_nama:
+    ayah_pekerjaan:
+    ayah_status:
+    ayah_penghasilan:
+    ayah_nik:
+    ayah_pendidikan:
+    ayah_telepon:
+    ayah_alamat:
+    ayah_negara_id:
+    ayah_provinsi_id:
+    ayah_kabupaten_id:
+    ayah_kecamatan_id:
+    ayah_kelurahan_id:
+    # Wali
+    wali_nama:
+    wali_pekerjaan:
+    wali_status:
+    wali_penghasilan:
+    wali_nik:
+    wali_pendidikan:
+    wali_telepon:
+    wali_alamat:
+    wali_negara_id:
+    wali_provinsi_id:
+    wali_kabupaten_id:
+    wali_kecamatan_id:
+    wali_kelurahan_id:
+
+  Guru:
+    nama:
+    nip:
+    foto:
+    kelas_id:
+    mata_pelajaran_id:
+    tahun_pelajaran_id:
 
   Penilaian:
     nama:
@@ -71,5 +162,9 @@ models:
     nama:
 
   Presensi:
-    kelas_id:
-  
+    siswa_id:
+    tahun_pelajaran_id:
+    alfa:
+    izin:
+    sakit:
+    hadir:
