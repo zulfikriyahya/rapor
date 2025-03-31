@@ -101,7 +101,6 @@ models:
     kabupaten_id:
     kecamatan_id:
     kelurahan_id:
-    # Ibu
     ibu_nama:
     ibu_pekerjaan:
     ibu_status:
@@ -115,7 +114,6 @@ models:
     ibu_kabupaten_id:
     ibu_kecamatan_id:
     ibu_kelurahan_id:
-    # Ayah
     ayah_nama:
     ayah_pekerjaan:
     ayah_status:
@@ -129,7 +127,6 @@ models:
     ayah_kabupaten_id:
     ayah_kecamatan_id:
     ayah_kelurahan_id:
-    # Wali
     wali_nama:
     wali_pekerjaan:
     wali_status:
@@ -151,6 +148,9 @@ models:
     kelas_id:
     mata_pelajaran_id:
     tahun_pelajaran_id:
+
+  JenisPenilaian:
+    nama:
 
   Penilaian:
     nama:
